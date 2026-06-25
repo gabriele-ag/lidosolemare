@@ -1,1 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
+body, html, h1, h2, h3, h4, h5, h6, button, a {
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --custom-color-site-1: rgb(245 158 11);
+}
+
+.colorfont-1 {
+    color: var(--custom-color-site-1);
+}

@@ -1,0 +1,79 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url(/public/SanVitoLoCapo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.hero-h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.custom-p {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.separatore {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70px;
+}
+
+.custom-padding-servizi {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-custom {
+    border-radius: 16px;
+}
+
+.title-card {
+    font-weight: 500;
+}
+
+.btn-custom-1 {
+    background-color: var(--custom-color-site-1);
+    padding: 20px 30px;
+}
+
+.btn-custom-1:hover {
+    background-color: rgb(241, 177, 66);
+}
+
+.btn-custom-2 {
+    background-color: rgb(255, 255, 255,0.1);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.btn-custom-2:hover {
+    background-color: rgb(255, 255, 255);
+    color: var(--custom-color-site-1);
+}
+
+.icon-badge {
+    width: fit-content;
+    background-color: #fffbeb;
+    color: #d97706;
+    border-radius: 12px;
+}
+
+.animation-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.animation-up:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12)
+}
