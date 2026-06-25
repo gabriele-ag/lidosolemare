@@ -21,7 +21,7 @@ export default function AppHeader() {
 
     return (
         <header className="sticky-top shadow-sm">
-            <nav className={`d-flex justify-content-between align-items-center bg-white p-3 ${styles['custom-gap-nav']}`}>
+            <nav className={`d-flex justify-content-center align-items-center bg-white p-3 ${styles['custom-gap-nav']}`}>
                 
                 <div className="d-flex align-items-center gap-3">
                     <div className={`p-2 rounded-circle text-white d-flex align-items-center justify-content-center ${styles['sun-box']}`}>
