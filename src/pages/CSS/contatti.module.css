@@ -1,0 +1,23 @@
+.customPaddingContatti {
+    padding-top: 100px;
+    padding-bottom: 450px;
+}
+
+.icon-badge {
+    width: fit-content;
+    background-color: #fffbeb;
+    color: #d97706;
+    border-radius: 12px;
+}
+
+.info-image-card {
+    background: linear-gradient(to top, rgba(3, 15, 39, 0.85) 0%, rgba(3, 15, 39, 0.2) 60%), 
+                url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80'); /* Sostituisci con il percorso della tua immagine */
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+}
+
+.customFontInfo {
+    font-size: 13px;
+}

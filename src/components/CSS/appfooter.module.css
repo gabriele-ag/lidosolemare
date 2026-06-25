@@ -1,0 +1,19 @@
+.footer-bg {
+  background-color: rgb(15, 23, 42);
+}
+
+.sun-box-footer {
+  background-color: rgb(245, 158, 11);
+}
+
+.custom-navlink-footer {
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.custom-navlink-footer:hover {
+  color: var(--custom-color-site-1);
+}
+
+.copyright {
+  font-size: 10px;
+}
