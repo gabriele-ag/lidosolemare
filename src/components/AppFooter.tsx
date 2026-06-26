@@ -33,21 +33,7 @@ export default function AppFooter() {
                         <h2 className="fw-bolder text-white fs-6 mb-0">LIDO SOLEMARE</h2>
                         <p className={`mb-0 ${styles.copyright}`}>© 2026 Lido SoleMare SRL. Tutti i diritti riservati.</p>
                     </div>
-                </div>
-
-
-                <ul className="d-flex list-unstyled gap-4 mb-0">
-                    {linkNav.map((curLink, index) => (
-                        <li key={index}>                            
-                            <NavLink 
-                                className={`fw-semibold text-decoration-none ${styles['custom-navlink-footer']}`} 
-                                to={curLink.url}
-                            >
-                                {curLink.title}
-                            </NavLink>
-                        </li>
-                    ))}
-                </ul>               
+                </div>             
                 
             </nav>       
         </footer>

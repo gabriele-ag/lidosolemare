@@ -1,5 +1,5 @@
-.custom-gap-nav {
-    gap: 200px;
+.customHeader {
+    height: 70px;
 }
 
 @keyframes spin-slow {
@@ -21,8 +21,7 @@
 
 .sun-box {
     background-color: var(--custom-color-site-1);
-    height: 50px;
-    width: 50px;
+    padding: 10px;
 }
 
 .sun {
@@ -39,7 +38,7 @@
     color: var(--custom-color-site-1);
 }
 
-.custom-button {
+.customButton {
     color: rgb(255, 255, 255);
     background-color: var(--custom-color-site-1);
     padding: 10px 15px;

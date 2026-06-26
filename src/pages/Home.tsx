@@ -54,7 +54,7 @@ export default function Home() {
                         
                         <div className="d-flex justify-content-center row">
                             
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-3">
                                
                                 <div className={`card h-100 border-0 shadow-sm p-4 ${styles['card-custom']} ${styles['animation-up']}`}>
                                    
@@ -67,7 +67,7 @@ export default function Home() {
                                 </div>
                             </div>
                     
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-3">
                                 
                                 <div className={`card h-100 border-0 shadow-sm p-4 ${styles['card-custom']} ${styles['animation-up']}`}>
                                    
@@ -80,7 +80,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="col-md-4">
+                            <div className="col-md-4 mb-3">
                                
                                 <div className={`card h-100 border-0 shadow-sm p-4 ${styles['card-custom']} ${styles['animation-up']}`}>
                                   
