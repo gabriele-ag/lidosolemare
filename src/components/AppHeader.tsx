@@ -49,7 +49,7 @@ export default function AppHeader() {
 
                 <NavLink 
                     className={`fw-bold fs-6 rounded-4 text-decoration-none ${styles['custom-button']}`} 
-                    to="/prenotaspiaggia">
+                    to="/prenotaora">
                     Prenota ora!
                 </NavLink>
                 

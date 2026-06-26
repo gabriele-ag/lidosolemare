@@ -28,12 +28,11 @@ body {
 }
 
 footer {
-    background-color: rgb(15, 23, 42);
+    background-color: rgb(3, 9, 24);
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 30px;
 }
 
 
