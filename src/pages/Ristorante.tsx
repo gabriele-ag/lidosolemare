@@ -42,7 +42,7 @@ export default function Ristorante() {
 
 
     return (
-        <section className={styles.sectionPaddingRistorante}>
+        <section className="sectionPadding">
             <div className="container">
                 <div className="row align-items-center mb-4">
                     <div className="col-md-8">

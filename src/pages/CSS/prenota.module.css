@@ -2,3 +2,33 @@
     padding-top: 100px;
     padding-bottom: 200px;
 }
+
+.customButtonOmbrellone {
+    width: 52px;
+    height: 52px;
+    font-size: 10px;
+    border: none,
+}
+
+.ombrelloneDisponibile,
+.indicatoreDisponibile {
+    background-color: var(--custom-color-site-2);
+}
+
+.ombrelloneSelezionato,
+.indicatoreSelezionato {
+    background-color: var(--custom-color-site-1);
+}
+
+.indicatore {
+    height: 12px;
+    width: 12px;
+}
+
+.prezzo {
+    color: var(--custom-color-site-2);
+}
+
+.buttonPrenotazione {
+    background-color: var(--custom-color-site-1);
+}

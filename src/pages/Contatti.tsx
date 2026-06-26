@@ -3,10 +3,10 @@ import { MapPin, Clock, Phone, Mail } from 'lucide-react';
 
 export default function Contatti() {
     return (
-        <section className="container">
-            <div className={styles.customPaddingContatti}>
+        <section className="sectionPadding">
+          <div className="container">
                 <div className={`d-flex justify-content-center align-items-center flex-column mb-5`}>
-                    <h1>Dove Trovarci & Contatti</h1>
+                    <h2 className="fw-bold">Dove Trovarci & Contatti</h2>
                     <p>Siamo pronti ad accoglierti e a guidarti nel cuore barocco della costa sicula</p>
                 </div>
 

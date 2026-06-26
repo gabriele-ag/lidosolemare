@@ -1,0 +1,51 @@
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeIn 0.2 ease-out;
+}
+
+.customModalContent {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 40px; 
+}
+
+.buttonOnClose {
+    border: none;
+    font-size: 10px;
+    background: none;
+    cursor: pointer;
+    color: rgb(148, 163, 184);
+    transition: color 0.2s;
+}
+
+.buttonOnClose:hover {
+    color: var(--custom-color-site-1);
+}
+
+.titleModule {
+    font-weight: 900;
+}
+
+.successIconBox {
+    background-color: rgb(28, 196, 140, 0.2);
+    color: var(--custom-color-site-2);
+}
+
+.checkCircle {
+    height: 50px;
+    width: 50px;
+}
+
+.prezzoPagato {
+    color: var(--custom-color-site-2);
+}
+
