@@ -53,7 +53,7 @@ export default function AppHeader() {
           Prenota ora!
         </NavLink>
 
-        {/* 🍔 FUTURO SPAZIO BURGER MENU (Visibile SOLO su mobile, scompare da tablet in su) */}
+        {/* FUTURO SPAZIO BURGER MENU*/}
         <button
           className="btn d-lg-none border-0 p-1 text-dark flex-shrink-0"
           onClick={() => alert("Apri Burger Menu simulato")}
