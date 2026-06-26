@@ -11,3 +11,27 @@ body, html, h1, h2, h3, h4, h5, h6, button, a {
 .colorfont-1 {
     color: var(--custom-color-site-1);
 }
+
+body {
+    background-color: rgb(248, 250, 252);
+}
+
+
+/* FOOTER SETTINGS NON TOCCARE! */
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    background-color: rgb(15, 23, 42);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+

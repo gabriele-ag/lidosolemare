@@ -37,7 +37,6 @@ export default function AppHeader() {
                 <ul className="d-flex list-unstyled gap-4 mb-0">
                     {linkNav.map((curLink, index) => (
                         <li key={index}>                            
-                            {/* Convertito 'custom-navlink' */}
                             <NavLink 
                                 className={`fw-semibold text-decoration-none ${styles['custom-navlink']}`} 
                                 to={curLink.url}

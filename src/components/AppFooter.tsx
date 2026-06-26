@@ -21,7 +21,7 @@ export default function AppFooter() {
     ];
 
     return (
-        <footer className={styles['footer-bg']}>
+        <footer>
 
             <nav className={`d-flex justify-content-between align-items-center text-light p-3 ${styles['custom-gap-nav']}`}>
                 
