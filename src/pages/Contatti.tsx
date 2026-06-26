@@ -28,7 +28,7 @@ export default function Contatti() {
                   </div>
                   <div>
                     <h5 className="fw-bold text-dark mb-1 fs-6">Posizione</h5>
-                    <p className="text-secondary small mb-0">Viale della Spiaggia Dorata, 42 • 96017 Noto (Siracusa), Sicilia</p>
+                    <p className="text-secondary small mb-0">Via Lungomare, Postazione Centrale • 91010 San Vito Lo Capo (Trapani), Sicilia</p>
                   </div>
                 </div>
 

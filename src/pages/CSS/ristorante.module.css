@@ -1,5 +1,6 @@
 .sectionPaddingRistorante {
     padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .badgeSenzaGlutine {
@@ -10,4 +11,9 @@
 .badgeVegano {
     background-color: rgb(220, 252, 231);
     color: rgb(22, 101, 52);
+}
+
+.btnFiltroCategoriaAttivo {
+    background-color: var(--custom-color-site-1);
+    color: rgb(255, 255, 255);
 }
