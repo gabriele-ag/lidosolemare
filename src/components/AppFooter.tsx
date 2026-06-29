@@ -4,21 +4,6 @@ import styles from "./CSS/appfooter.module.css";
 
 export default function AppFooter() {
 
-    const linkNav = [
-        {
-            title: "Home",
-            url: "/"
-        },
-        {
-            title: "Ristorante",
-            url: "/ristorante"
-        },
-        {
-            title: "Contatti",
-            url: "/contatti"
-        }
-    ];
-
     return (
         <footer>
 
