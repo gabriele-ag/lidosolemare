@@ -32,6 +32,7 @@
 .custom-navlink {
     color: rgb(0, 0, 0);
     font-size: 17px;
+    transition: color 0.2s ease;
 }
 
 .custom-navlink:hover {
@@ -42,9 +43,20 @@
     color: rgb(255, 255, 255);
     background-color: var(--custom-color-site-1);
     padding: 10px 15px;
-    text-decoration: none;  
+    text-decoration: none;
+    transition: background-color 0.2s ease;
 }
 
 .custom-button:hover {
     opacity: 80%;
 }
+
+
+/* BURGER MENU BUTTONS*/
+
+.openBurgerButton:hover,
+.closeBurgerButton:hover {
+    color: var(--custom-color-site-1);
+}
+
+

@@ -1,8 +1,15 @@
+import {useState} from "react"
+
 import { NavLink } from "react-router";
-import { Sun } from "lucide-react";
+import { Sun, Menu, X } from "lucide-react";
 import styles from "./CSS/appheader.module.css";
 
+import BurgerMenu from "./BurgerMenu";
+
 export default function AppHeader() {
+
+  const [openMenu, setOpenMenu] = useState(false)
+
   const linkNav = [
     { title: "Home", url: "/" },
     { title: "Ristorante", url: "/ristorante" },
@@ -56,12 +63,14 @@ export default function AppHeader() {
         {/* FUTURO SPAZIO BURGER MENU*/}
         <button
           className="btn d-lg-none border-0 p-1 text-dark flex-shrink-0"
-          onClick={() => alert("Apri Burger Menu simulato")}
+          onClick={() => setOpenMenu(!openMenu)}
         >
-          {/* Qui metterai l'icona <Menu /> di lucide-react in seguito */}
-          <span className="fs-3">☰</span>
+          {openMenu ? <X className={styles.closeBurgerButton} /> : <Menu className={styles.openBurgerButton}/>}
         </button>
-      </nav>
+        
+        </nav>
+
+        <BurgerMenu isOpen={openMenu} onClose={() => setOpenMenu(false)} />
     </header>
   );
 }

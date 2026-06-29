@@ -2,14 +2,6 @@
   background-color: rgb(245, 158, 11);
 }
 
-.custom-navlink-footer {
-  color: rgb(255, 255, 255, 0.3);
-}
-
-.custom-navlink-footer:hover {
-  color: rgb(255, 255, 255);
-}
-
 .copyright {
   font-size: 10px;
 }

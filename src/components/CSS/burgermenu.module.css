@@ -1,0 +1,19 @@
+.burgerMenu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    padding-top: 10px;
+}
+
+.navLinkBurger {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    transition: color 0.2s ease;
+}
+
+.navLinkBurger:hover {
+    color: var(--custom-color-site-1);
+}
