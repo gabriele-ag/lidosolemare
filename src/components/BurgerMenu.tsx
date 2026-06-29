@@ -14,6 +14,7 @@ export default function BurgerMenu({isOpen, onClose}: BurgerMenuProps) {
        { title: "Home", url: "/" },
        { title: "Ristorante", url: "/ristorante" },
        { title: "Contatti", url: "/contatti" },
+       { title: "PrenotaOra", url: "/prenotaora"}
      ];
 
 
