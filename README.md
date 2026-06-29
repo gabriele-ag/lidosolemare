@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# Lido Solemare - Piattaforma Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Lido SoleMare nasce dall'idea di una calda estate: un'applicazione web moderna, fluida e reattiva sviluppata in React per la gestione e la presentazione dei servizi del resort/stabilimento balneare.
 
-Currently, two official plugins are available:
+Il sito offre un'interfaccia elegante e accessibile, ottimizzata per smartphone, tablet e desktop, completa di animazioni curate e gestione dinamica delle rotte.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ecco il link alla web app: https://lidosolemare.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funzionalità Principali
 
-## Expanding the Oxlint configuration
+*   **Design Responsive:** Flessibile, pensato ed ottimizzato per funzionare su diverse piattaforme.
+*   **Navigazione fluida (SPA):** Gestione delle pagine istantanea senza ricaricamenti d'area tramite `react-router`.
+*   **Gestione rotte inesistenti (404):** Pagina di cortesia inclusiva ("Sei fuori rotta?") integrata fuori dal layout principale per il recupero dell'utente in caso di link errati.
+*   **Architettura a componenti:** Codice modulare, scalabile e tipizzato con TypeScript.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Stack
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+*   **Core:** React 19 / TypeScript
+*   **Routing:** React Router v7
+*   **Styling:** Bootstrap 5 & CSS Modules
+*   **Icons:** Lucide React
+*   **Deployment:** Vercel
