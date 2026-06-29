@@ -114,13 +114,13 @@ export default function Contatti() {
               </div>
 
               <h3 className="fw-bold mb-3 text-white">
-                Immerso nell'Oasi di Vendicari
+                Immerso nell'Oasi di San Vito Lo Capo
               </h3>
 
               <p className="text-light opacity-90 mb-0 leading-relaxed">
-                Siamo situati a pochi passi dalle spiagge protette e
-                dall'architettura barocca di Noto, in un'area riparata dai venti
-                per un mare calmo e limpido.
+                Siamo situati a pochi passi dalle spiagge cristalline della baia e alle porte 
+                della Riserva dello Zingaro, in un'area riparata dalle correnti per un mare 
+                sempre calmo, turchese e limpido.
               </p>
             </div>
           </div>
