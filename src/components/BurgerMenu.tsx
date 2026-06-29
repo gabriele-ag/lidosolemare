@@ -10,8 +10,6 @@ interface BurgerMenuProps {
 
 export default function BurgerMenu({isOpen, onClose}: BurgerMenuProps) {
 
-    if (!isOpen) return null;
-
     const linkNav = [
        { title: "Home", url: "/" },
        { title: "Ristorante", url: "/ristorante" },
@@ -25,7 +23,7 @@ export default function BurgerMenu({isOpen, onClose}: BurgerMenuProps) {
                 <ul className="d-flex flex-column gap-3 list-unstyled fw-semibold">
                     {linkNav.map((curLink, index) => (
                         <li key={index} className={styles.navLinkBurger}>
-                            <NavLink className={`text-decoration-none ${styles.navLinkBurger}`} to={curLink.url}>{curLink.title}</NavLink>
+                            <NavLink className={`text-decoration-none ${styles.navLinkBurger}`} to={curLink.url} onClick={onClose}>{curLink.title}</NavLink>
                         </li>
                     ))}
                 </ul>

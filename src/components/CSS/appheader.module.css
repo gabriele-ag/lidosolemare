@@ -1,5 +1,6 @@
 .customHeader {
     height: 70px;
+    z-index: 9999;
 }
 
 @keyframes spin-slow {
@@ -17,6 +18,7 @@
 
 .logo-text {
     font-weight: 900;
+    color: var(--custom-color-site-3);
 }
 
 .sun-box {
@@ -30,7 +32,7 @@
 }
 
 .custom-navlink {
-    color: rgb(0, 0, 0);
+    color: var(--custom-color-site-3);
     font-size: 17px;
     transition: color 0.2s ease;
 }
@@ -44,11 +46,12 @@
     background-color: var(--custom-color-site-1);
     padding: 10px 15px;
     text-decoration: none;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;   
+    
 }
 
-.custom-button:hover {
-    opacity: 80%;
+.customButton:hover {
+    background-color: var(--custom-color-site-3);
 }
 
 

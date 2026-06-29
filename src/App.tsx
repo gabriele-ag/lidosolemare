@@ -4,6 +4,7 @@ import GuestLayout from "./layouts/GuestLayout"
 import Contatti from "./pages/Contatti"
 import Ristorante from "./pages/Ristorante"
 import PrenotaOra from "./pages/PrenotaOra"
+import NotFound from "./pages/NotFound"
 
 function App() {
 
@@ -11,6 +12,9 @@ function App() {
     <>    
       <BrowserRouter>
         <Routes>
+          
+          <Route path="*" element={<NotFound />} />
+
           <Route element={<GuestLayout/>}>               
             <Route path="/" element={<Home />} />
             <Route path="/ristorante" element={<Ristorante />} />

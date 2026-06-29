@@ -4,8 +4,8 @@
 
 .icon-badge {
     width: fit-content;
-    background-color: #fffbeb;
-    color: #d97706;
+    background-color: rgb(255, 251, 235);
+    color: var(--custom-color-site-1);
     border-radius: 12px;
 }
 

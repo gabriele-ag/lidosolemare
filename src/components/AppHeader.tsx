@@ -31,7 +31,7 @@ export default function AppHeader() {
             <Sun className={`${styles["animate-spin-slow"]} ${styles.sun}`} />
           </div>
           <div>
-            <h2 className={`text-dark fs-5 mb-0 ${styles["logo-text"]}`}>
+            <h2 className={`fs-5 mb-0 ${styles["logo-text"]}`}>
               LIDO SOLEMARE
             </h2>
             <p className="fw-semibold mb-0 colorfont-1 small">
@@ -54,7 +54,7 @@ export default function AppHeader() {
         </ul>
 
         <NavLink
-          className={`d-none d-lg-inline-block fw-bold fs-6 rounded-4 text-decoration-none ${styles.customButton}`}
+          className={`d-none d-lg-inline-block fw-bold fs-6 rounded-4 ${styles.customButton}`}
           to="/prenotaora"
         >
           Prenota ora!
@@ -62,7 +62,7 @@ export default function AppHeader() {
 
         {/* FUTURO SPAZIO BURGER MENU*/}
         <button
-          className="btn d-lg-none border-0 p-1 text-dark flex-shrink-0"
+          className="btn d-lg-none border-0 p-1 flex-shrink-0"
           onClick={() => setOpenMenu(!openMenu)}
         >
           {openMenu ? <X className={styles.closeBurgerButton} /> : <Menu className={styles.openBurgerButton}/>}

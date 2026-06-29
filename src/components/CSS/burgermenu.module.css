@@ -6,14 +6,24 @@
     backdrop-filter: blur(4px);
     width: 100%;
     padding-top: 10px;
+    transform: translateY(-300px); 
+    opacity: 0;
+    visibility: hidden;  
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s;
 }
 
 .navLinkBurger {
-    color: rgb(0, 0, 0);
+    color: var(--custom-color-site-3);
     font-size: 17px;
     transition: color 0.2s ease;
 }
 
 .navLinkBurger:hover {
     color: var(--custom-color-site-1);
+}
+
+.menuOpen {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
 }

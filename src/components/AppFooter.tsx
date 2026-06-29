@@ -1,4 +1,3 @@
-import { NavLink } from "react-router";
 import { Sun } from "lucide-react";
 
 import styles from "./CSS/appfooter.module.css";

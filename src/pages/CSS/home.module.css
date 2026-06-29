@@ -22,7 +22,7 @@
 }
 
 .separatore {
-    border: 2px solid black;
+    border: 2px solid var(--custom-color-site-3);
     border-radius: 10px;
     width: 70px;
 }
@@ -40,6 +40,11 @@
     font-weight: 500;
 }
 
+.btn-custom-1,
+.btn-custom-2 {
+    transition: background-color 0.2s ease;
+}
+
 .btn-custom-1 {
     background-color: var(--custom-color-site-1);
     padding: 20px 30px;
@@ -54,10 +59,11 @@
     border: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 30px;   
 }
 
 .btn-custom-2:hover {
+    
     background-color: rgb(255, 255, 255);
     color: var(--custom-color-site-1);
 }

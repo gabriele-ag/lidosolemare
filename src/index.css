@@ -7,6 +7,7 @@ body, html, h1, h2, h3, h4, h5, h6, button, a {
 :root {
     --custom-color-site-1: rgb(245 158 11);
     --custom-color-site-2: rgb(28, 196, 140);
+    --custom-color-site-3: rgb(3, 9, 24)
 }
 
 .colorfont-1 {
