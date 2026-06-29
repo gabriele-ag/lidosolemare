@@ -28,7 +28,7 @@ export default function Home() {
                         </p>
                         <div className="d-flex flex-wrap justify-content-center gap-4 mt-2">
      
-                          <NavLink className={`text-decoration-none fw-bold text-white rounded-4 shadow ${styles['btn-custom-1']}`} to="/spiaggia">
+                          <NavLink className={`text-decoration-none fw-bold text-white rounded-4 shadow ${styles['btn-custom-1']}`} to="/prenotaora">
                             Scegli il tuo ombrellone
                           </NavLink>
 
